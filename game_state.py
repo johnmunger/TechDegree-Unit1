@@ -12,24 +12,6 @@ class GameState:
         self.sessionPlayFlag=True
         self.sessions = []
 
-    def getMean(self):
-        return self.mean
-
-    def setMean(self, mean):
-        self.mean = mean
-
-    def getMedian(self):
-        return self.median
-
-    def setMedian(self, median):
-        self.median = median
-
-    def getMode(self):
-        return self.mode
-
-    def setMode(self, mode):
-        self.mode = mode
-
     def getSessions(self):
         return self.sessions
 
