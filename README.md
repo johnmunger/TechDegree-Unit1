@@ -22,8 +22,7 @@ Hello, my name is John.  私はジョンです。Je m'appelle John.
 
 https://www.jdmunger.com/
 
-* I have been a professional software developer for 5 years.  
-* I have a programming style, already.
+* I have been a professional software developer for 5 years.
 * I use camelCase.
 * I learned Python, C++, and C in college.  I am now a fullstack dev where I do React.js, Java, and PostGreSQL
 * I am always open to learn.
