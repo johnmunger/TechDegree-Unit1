@@ -3,7 +3,7 @@
 Acceptance Criteria copied from initial code guessing_game.py
 
 When the program starts, we want to:
-    ------------------------------------
+
     1. Display an intro/welcome message to the player.
     2. Store a random number as the answer/solution.
     3. Continuously prompt the player for a guess.
@@ -14,16 +14,20 @@ When the program starts, we want to:
     5. Save their attempt number to a list.
     6. At the end of the game, show the player, 1) their number of attempts, 2) the mean, median, and mode of the saved attempts list.
     7. Ask the player if they want to play again.
+    
 
 #Disclaimer
+---
 Hello, my name is John.  私はジョンです。Je m'appelle John.
+
 https://www.jdmunger.com/
-I have been a professional software developer for 5 years.  
-I have a programming style, already.
-I use camelCase.
-I learned Python, C++, and C in college.  I became a fullstack dev where I do React.js, Java, and PostGreSQL
-I am always open to learn.
-I just welcomed my first child, Kirin!
+
+* I have been a professional software developer for 5 years.  
+* I have a programming style, already.
+* I use camelCase.
+* I learned Python, C++, and C in college.  I am now a fullstack dev where I do React.js, Java, and PostGreSQL
+* I am always open to learn.
+* I just welcomed my first child, Kirin!
 
 #Design
 ---
