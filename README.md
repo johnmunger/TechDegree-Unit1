@@ -40,10 +40,13 @@ GameState keeps track of all the relevant variables.
 I imagined the gamestate as containing the statistics data we would present to the user, and session data i.e. individual game data.
 
 Therefore GameState initially contained:
-mean, median, mode, sessions[]
+
+    mean, median, mode, sessions[]
+
 
 I knew each session would contain:
-targetnumber, guesses[]
+
+    targetnumber, guesses[]
 
 From there I built my classes and my getter/setter functions.
 
