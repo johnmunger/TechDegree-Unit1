@@ -9,7 +9,6 @@ When the program starts, we want to:
     3. Continuously prompt the player for a guess.
       a. If the guess greater than the solution, display to the player "It's lower".
       b. If the guess is less than the solution, display to the player "It's higher".
-    
     4. Once the guess is correct, stop looping, inform the user they "Got it"
          and show how many attempts it took them to get the correct number.
     5. Save their attempt number to a list.
