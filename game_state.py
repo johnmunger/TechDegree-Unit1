@@ -40,6 +40,8 @@ class GameState:
                 self.lowScore = len(guesses)
         for session in self.sessions:
             allGuesses.extend(session.getGuesses())
+        
+        allGuesses.sort()
 
         self.mean = statistics.mean(allGuesses)
         self.median = statistics.median(allGuesses)
