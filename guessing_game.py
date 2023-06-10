@@ -6,14 +6,12 @@ from game_state import GameState
 
 def startGame():
     
-    # write your code inside this function.
+#The Game's Control Structure
     gameState = GameState()
     gameState.printOpeningMessage()
     while(gameState.globalPlayFlag):
-        firstSession = len(gameState.sessions) == 0
         gameState.initializeSession()
-        if(not firstSession):
-           print(f'Can you guess in less than {gameState.lowScore} tries?! Go for broke!\n\n')
+        gameState.printLowScore()
         while(gameState.sessionPlayFlag):
             guess(gameState)
         gameState.calculateAndPrintStatistics()
